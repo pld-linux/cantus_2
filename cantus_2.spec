@@ -12,7 +12,7 @@ URL:		http://www.debain.org/?project=1
 BuildRequires:	autoconf
 #BuildRequires:	gnome-libs-devel >= 1.2.8
 BuildRequires:	glib2-devel >= 2.2.0
-BuildRequires:	gtk+2-devel >= 2.2.0
+BuildRequires:	gtk+2-devel >= 2:2.2.0
 BuildRequires:	libglade2-devel
 BuildRequires:	libogg-devel
 BuildRequires:	libvorbis-devel
