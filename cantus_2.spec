@@ -37,7 +37,7 @@ Features:
 
 %description -l pl
 cantus_2 to zestaw narzêdzi do zmiany nazw i znaczników plików mp3 i
-ogg/vorbis. Jest to wolnodostêpne oprogramowanie, rozpowszechaniane
+ogg/vorbis. Jest to wolnodostêpne oprogramowanie, rozpowszechniane
 na licencji GPL. Zosta³o napisane przez sama (Samuela Abelsa,
 <sam@manicsadness.com>) i zaimplementowany w C przy u¿yciu GTK+ 2.x.
 
