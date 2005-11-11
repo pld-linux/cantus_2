@@ -8,7 +8,7 @@ Group:		X11/Applications/Sound
 #Source0Download: http://www.debain.org/?session=&site=project&project=1&cat=downloads
 Source0:	http://sam.homeunix.com/software.manicsadness.com-step4/releases/cantus_2/%{name}-%{version}-1.tar.gz
 # Source0-md5:	d237af5e217aa13473b8a6b21b2c4d2f
-URL:		http://www.debain.org/?project=1
+URL:		http://www.debain.org/software/cantus
 BuildRequires:	autoconf
 #BuildRequires:	gnome-libs-devel >= 1.2.8
 BuildRequires:	glib2-devel >= 2.2.0
