@@ -10,14 +10,14 @@ Source0:	http://sam.homeunix.com/software.manicsadness.com-step4/releases/cantus
 # Source0-md5:	d237af5e217aa13473b8a6b21b2c4d2f
 URL:		http://www.debain.org/software/cantus
 BuildRequires:	autoconf
-#BuildRequires:	gnome-libs-devel >= 1.2.8
+BuildRequires:	gettext-devel
 BuildRequires:	glib2-devel >= 2.2.0
+#BuildRequires:	gnome-libs-devel >= 1.2.8
 BuildRequires:	gtk+2-devel >= 2:2.2.0
 BuildRequires:	libglade2-devel
 BuildRequires:	libogg-devel
 BuildRequires:	libvorbis-devel
 BuildRequires:	pkgconfig
-BuildRequires:	gettext-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -64,7 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-	
+
 rm -rf $RPM_BUILD_ROOT%{_prefix}/doc
 
 %find_lang cantus-2
