@@ -1,5 +1,5 @@
 Summary:	A GUI tool to rename and tag MP3 and Ogg/Vorbis files
-Summary(pl):	Graficzne narzêdzie do zmiany nazw i znaczników plików MP3 i Ogg/Vorbis
+Summary(pl.UTF-8):   Graficzne narzÄ™dzie do zmiany nazw i znacznikÃ³w plikÃ³w MP3 i Ogg/Vorbis
 Name:		cantus_2
 Version:	1.99.9
 Release:	1
@@ -35,20 +35,20 @@ Features:
 - renaming of files through freedb
 - a LOT more
 
-%description -l pl
-cantus_2 to zestaw narzêdzi do zmiany nazw i znaczników plików MP3 i
-Ogg/Vorbis. Jest to wolnodostêpne oprogramowanie, rozpowszechniane
-na licencji GPL. Zosta³o napisane przez sama (Samuela Abelsa,
-<sam@manicsadness.com>) i zaimplementowany w C przy u¿yciu GTK+ 2.x.
+%description -l pl.UTF-8
+cantus_2 to zestaw narzÄ™dzi do zmiany nazw i znacznikÃ³w plikÃ³w MP3 i
+Ogg/Vorbis. Jest to wolnodostÄ™pne oprogramowanie, rozpowszechniane
+na licencji GPL. ZostaÅ‚o napisane przez sama (Samuela Abelsa,
+<sam@manicsadness.com>) i zaimplementowany w C przy uÅ¼yciu GTK+ 2.x.
 
-Mo¿liwo¶ci:
-- definiowanie regu³ zmiany nazw, do wykonania na li¶cie plików
-- masowa zmiana nazw i znakowanie plików MP3
-- definiowanie regu³ do wykonania na kolejce plików MP3
-- zaimplementowane dynamiczne znakowanie, co oznacza, ¿e mo¿na
-  generowaæ znaczniki na podstawie nazwy pliku i/lub katalogu
-- zmiana nazw plików poprzez freedb
-- WIELE wiêcej.
+MoÅ¼liwoÅ›ci:
+- definiowanie reguÅ‚ zmiany nazw, do wykonania na liÅ›cie plikÃ³w
+- masowa zmiana nazw i znakowanie plikÃ³w MP3
+- definiowanie reguÅ‚ do wykonania na kolejce plikÃ³w MP3
+- zaimplementowane dynamiczne znakowanie, co oznacza, Å¼e moÅ¼na
+  generowaÄ‡ znaczniki na podstawie nazwy pliku i/lub katalogu
+- zmiana nazw plikÃ³w poprzez freedb
+- WIELE wiÄ™cej.
 
 %prep
 %setup -q -n cantus-2-%{version}
