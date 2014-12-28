@@ -10,7 +10,7 @@ Source0:	http://sam.homeunix.com/software.manicsadness.com-step4/releases/cantus
 # Source0-md5:	d237af5e217aa13473b8a6b21b2c4d2f
 URL:		http://www.debain.org/software/cantus
 BuildRequires:	autoconf
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 2.2.0
 #BuildRequires:	gnome-libs-devel >= 1.2.8
 BuildRequires:	gtk+2-devel >= 2:2.2.0
